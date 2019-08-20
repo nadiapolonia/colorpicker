@@ -92,15 +92,6 @@ class Color extends Component {
         <div>
           <button onClick={this.randomHue}>Random Color</button>
         </div>
-
-        <footer
-          style={{
-            backgroundColor: `hsl(${this.hueRandom},${this.saturationRandom}%,${
-              this.lightnessRandom
-            }%)`
-          }}
-          className="box2"
-        />
       </main>
     )
   }
